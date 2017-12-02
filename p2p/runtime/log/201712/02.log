@@ -1,0 +1,9 @@
+---------------------------------------------------------------
+[ 2017-12-02T07:31:26+08:00 ] ::1 ::1 GET /git/public/index.php/index/index/show
+[ error ] [0]模板文件不存在:F:\phpstudy\WWW\git\public/../application/index\view\index\list.html
+---------------------------------------------------------------
+[ 2017-12-02T08:37:03+08:00 ] ::1 ::1 GET /git/public/index.php/index/myself/security
+[ error ] [64]Cannot redeclare app\index\controller\Myself::updatpwd()
+---------------------------------------------------------------
+[ 2017-12-02T08:37:04+08:00 ] ::1 ::1 GET /git/public/index.php/index/myself/index
+[ error ] [64]Cannot redeclare app\index\controller\Myself::updatpwd()

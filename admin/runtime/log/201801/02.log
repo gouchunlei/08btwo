@@ -11739,3 +11739,273 @@
 [ info ] [ VIEW ] F:\phpstudy\WWW\sugoo\admin\public/../application/index\view\manager\manager.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T15:28:01+08:00 ] ::1 ::1 GET /sugoo/admin/public/
+[ info ] localhost/sugoo/admin/public/ [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,513.77kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455; XSRF-TOKEN=eyJpdiI6Im9xZElZVHBpWWhETHZsMzJEaFgzS1E9PSIsInZhbHVlIjoiOFlZVTRuK3d3OHJqclAxank2WXg0b2NyNkV2MkpTTENZM0hPYTVsRVJoa0M1cjBcL2NjbTBEVHlWK3lWMDdYSlwvSFU1Tm9FMXpMZEtBeDBQeDFneUJudz09IiwibWFjIjoiNTdmMDM4ZjFhMDZiNjgwNWZlZTQ1ODE5Y2RiMDBkZGM2OWJlOWZlOWExOWYzNmM3MGU0MzgzNDliNTQwM2E5ZCJ9; laravel_session=eyJpdiI6IkpJM2JXRFJ6Z0FsNGcxVDFUdjFQVGc9PSIsInZhbHVlIjoiZ09GVE5rOXo3Z3c1ZUxOSGJJRHE3b3ZhZUJyR2R2eVNrMUFRV0lLeU9xdTkxSFVrM0Y5VVllZ2FVNzdmbDIwOUllOFI3eXRmMkplbis0dmVMeGJxVHc9PSIsIm1hYyI6IjM3NmM0M2UwMmQ3MTI3OWJiMTBlYmE0NGMwYmZhYzJjMDkyZjAxODYwMzcyOTkzOTQ1ZTM3Mjg1YWE5ZTRjZDUifQ%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T15:28:05+08:00 ] ::1 ::1 GET /sugoo/admin/public/index.html
+[ info ] localhost/sugoo/admin/public/index.html [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,391.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455; XSRF-TOKEN=eyJpdiI6Im9xZElZVHBpWWhETHZsMzJEaFgzS1E9PSIsInZhbHVlIjoiOFlZVTRuK3d3OHJqclAxank2WXg0b2NyNkV2MkpTTENZM0hPYTVsRVJoa0M1cjBcL2NjbTBEVHlWK3lWMDdYSlwvSFU1Tm9FMXpMZEtBeDBQeDFneUJudz09IiwibWFjIjoiNTdmMDM4ZjFhMDZiNjgwNWZlZTQ1ODE5Y2RiMDBkZGM2OWJlOWZlOWExOWYzNmM3MGU0MzgzNDliNTQwM2E5ZCJ9; laravel_session=eyJpdiI6IkpJM2JXRFJ6Z0FsNGcxVDFUdjFQVGc9PSIsInZhbHVlIjoiZ09GVE5rOXo3Z3c1ZUxOSGJJRHE3b3ZhZUJyR2R2eVNrMUFRV0lLeU9xdTkxSFVrM0Y5VVllZ2FVNzdmbDIwOUllOFI3eXRmMkplbis0dmVMeGJxVHc9PSIsIm1hYyI6IjM3NmM0M2UwMmQ3MTI3OWJiMTBlYmE0NGMwYmZhYzJjMDkyZjAxODYwMzcyOTkzOTQ1ZTM3Mjg1YWE5ZTRjZDUifQ%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T15:28:09+08:00 ] ::1 ::1 GET /sugoo/admin/public/
+[ info ] localhost/sugoo/admin/public/ [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,388.69kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455; XSRF-TOKEN=eyJpdiI6Im9xZElZVHBpWWhETHZsMzJEaFgzS1E9PSIsInZhbHVlIjoiOFlZVTRuK3d3OHJqclAxank2WXg0b2NyNkV2MkpTTENZM0hPYTVsRVJoa0M1cjBcL2NjbTBEVHlWK3lWMDdYSlwvSFU1Tm9FMXpMZEtBeDBQeDFneUJudz09IiwibWFjIjoiNTdmMDM4ZjFhMDZiNjgwNWZlZTQ1ODE5Y2RiMDBkZGM2OWJlOWZlOWExOWYzNmM3MGU0MzgzNDliNTQwM2E5ZCJ9; laravel_session=eyJpdiI6IkpJM2JXRFJ6Z0FsNGcxVDFUdjFQVGc9PSIsInZhbHVlIjoiZ09GVE5rOXo3Z3c1ZUxOSGJJRHE3b3ZhZUJyR2R2eVNrMUFRV0lLeU9xdTkxSFVrM0Y5VVllZ2FVNzdmbDIwOUllOFI3eXRmMkplbis0dmVMeGJxVHc9PSIsIm1hYyI6IjM3NmM0M2UwMmQ3MTI3OWJiMTBlYmE0NGMwYmZhYzJjMDkyZjAxODYwMzcyOTkzOTQ1ZTM3Mjg1YWE5ZTRjZDUifQ%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T15:29:14+08:00 ] ::1 ::1 GET /sugoo/admin/public/
+[ info ] localhost/sugoo/admin/public/ [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,388.69kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455; XSRF-TOKEN=eyJpdiI6Im9xZElZVHBpWWhETHZsMzJEaFgzS1E9PSIsInZhbHVlIjoiOFlZVTRuK3d3OHJqclAxank2WXg0b2NyNkV2MkpTTENZM0hPYTVsRVJoa0M1cjBcL2NjbTBEVHlWK3lWMDdYSlwvSFU1Tm9FMXpMZEtBeDBQeDFneUJudz09IiwibWFjIjoiNTdmMDM4ZjFhMDZiNjgwNWZlZTQ1ODE5Y2RiMDBkZGM2OWJlOWZlOWExOWYzNmM3MGU0MzgzNDliNTQwM2E5ZCJ9; laravel_session=eyJpdiI6IkpJM2JXRFJ6Z0FsNGcxVDFUdjFQVGc9PSIsInZhbHVlIjoiZ09GVE5rOXo3Z3c1ZUxOSGJJRHE3b3ZhZUJyR2R2eVNrMUFRV0lLeU9xdTkxSFVrM0Y5VVllZ2FVNzdmbDIwOUllOFI3eXRmMkplbis0dmVMeGJxVHc9PSIsIm1hYyI6IjM3NmM0M2UwMmQ3MTI3OWJiMTBlYmE0NGMwYmZhYzJjMDkyZjAxODYwMzcyOTkzOTQ1ZTM3Mjg1YWE5ZTRjZDUifQ%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T15:29:17+08:00 ] ::1 ::1 GET /sugoo/admin/public/
+[ info ] localhost/sugoo/admin/public/ [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,388.69kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455; XSRF-TOKEN=eyJpdiI6Im9xZElZVHBpWWhETHZsMzJEaFgzS1E9PSIsInZhbHVlIjoiOFlZVTRuK3d3OHJqclAxank2WXg0b2NyNkV2MkpTTENZM0hPYTVsRVJoa0M1cjBcL2NjbTBEVHlWK3lWMDdYSlwvSFU1Tm9FMXpMZEtBeDBQeDFneUJudz09IiwibWFjIjoiNTdmMDM4ZjFhMDZiNjgwNWZlZTQ1ODE5Y2RiMDBkZGM2OWJlOWZlOWExOWYzNmM3MGU0MzgzNDliNTQwM2E5ZCJ9; laravel_session=eyJpdiI6IkpJM2JXRFJ6Z0FsNGcxVDFUdjFQVGc9PSIsInZhbHVlIjoiZ09GVE5rOXo3Z3c1ZUxOSGJJRHE3b3ZhZUJyR2R2eVNrMUFRV0lLeU9xdTkxSFVrM0Y5VVllZ2FVNzdmbDIwOUllOFI3eXRmMkplbis0dmVMeGJxVHc9PSIsIm1hYyI6IjM3NmM0M2UwMmQ3MTI3OWJiMTBlYmE0NGMwYmZhYzJjMDkyZjAxODYwMzcyOTkzOTQ1ZTM3Mjg1YWE5ZTRjZDUifQ%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T15:29:19+08:00 ] ::1 ::1 GET /sugoo/admin/public/
+[ info ] localhost/sugoo/admin/public/ [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,388.69kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455; XSRF-TOKEN=eyJpdiI6Im9xZElZVHBpWWhETHZsMzJEaFgzS1E9PSIsInZhbHVlIjoiOFlZVTRuK3d3OHJqclAxank2WXg0b2NyNkV2MkpTTENZM0hPYTVsRVJoa0M1cjBcL2NjbTBEVHlWK3lWMDdYSlwvSFU1Tm9FMXpMZEtBeDBQeDFneUJudz09IiwibWFjIjoiNTdmMDM4ZjFhMDZiNjgwNWZlZTQ1ODE5Y2RiMDBkZGM2OWJlOWZlOWExOWYzNmM3MGU0MzgzNDliNTQwM2E5ZCJ9; laravel_session=eyJpdiI6IkpJM2JXRFJ6Z0FsNGcxVDFUdjFQVGc9PSIsInZhbHVlIjoiZ09GVE5rOXo3Z3c1ZUxOSGJJRHE3b3ZhZUJyR2R2eVNrMUFRV0lLeU9xdTkxSFVrM0Y5VVllZ2FVNzdmbDIwOUllOFI3eXRmMkplbis0dmVMeGJxVHc9PSIsIm1hYyI6IjM3NmM0M2UwMmQ3MTI3OWJiMTBlYmE0NGMwYmZhYzJjMDkyZjAxODYwMzcyOTkzOTQ1ZTM3Mjg1YWE5ZTRjZDUifQ%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T15:29:38+08:00 ] ::1 ::1 GET /sugoo/admin/public/
+[ info ] localhost/sugoo/admin/public/ [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,388.72kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455; XSRF-TOKEN=eyJpdiI6Ik9FT09NUURMMGRKQzgyNUYwRmljZ2c9PSIsInZhbHVlIjoiTkFMUmMzaGtWdU5nZ0szd1FlMXBGNWttcmJVRGlVWlAzQTRkY29ra25QVUx6WkRNYXBwcU4xK0cxb2tJcUVsS3RxRUFhQm9XR3ZLeDVNaXo0Y1ZhdkE9PSIsIm1hYyI6IjljNDRkYzM1ZjEwYzJjMzc4MjgyZjk3ODg2NTBkZjc3MzA4NDlhYTBhMWUwMjIzZWYyODBhMmY4YWQ0NjA0OWYifQ%3D%3D; laravel_session=eyJpdiI6ImJBUDQxc2JDQytZcXRxZzZ3Q0p3THc9PSIsInZhbHVlIjoiTzdIV0xZcTBxa3dEUzJNS3VORkdoTG1cL2RWSnlGYktpOTFHSHVNdjM5c0c4YitPNGlBZ2F4VHlVVE1YNTY4MFozWW1PZnFnSVZ0Ryt1VU91d0p6YjhRPT0iLCJtYWMiOiJmNzBlYTkyNTlkYjM0NGFlMDQ1ZTFmNDk2MmVlOTU5NjBlYzdlZWU4MjYyZjk2MGIxODg2ZWE1YTJjMTE3ZWYxIn0%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T15:31:23+08:00 ] ::1 ::1 GET /sugoo/admin/public/
+[ info ] localhost/sugoo/admin/public/ [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,388.64kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455; XSRF-TOKEN=eyJpdiI6Ik9FT09NUURMMGRKQzgyNUYwRmljZ2c9PSIsInZhbHVlIjoiTkFMUmMzaGtWdU5nZ0szd1FlMXBGNWttcmJVRGlVWlAzQTRkY29ra25QVUx6WkRNYXBwcU4xK0cxb2tJcUVsS3RxRUFhQm9XR3ZLeDVNaXo0Y1ZhdkE9PSIsIm1hYyI6IjljNDRkYzM1ZjEwYzJjMzc4MjgyZjk3ODg2NTBkZjc3MzA4NDlhYTBhMWUwMjIzZWYyODBhMmY4YWQ0NjA0OWYifQ%3D%3D; laravel_session=eyJpdiI6ImJBUDQxc2JDQytZcXRxZzZ3Q0p3THc9PSIsInZhbHVlIjoiTzdIV0xZcTBxa3dEUzJNS3VORkdoTG1cL2RWSnlGYktpOTFHSHVNdjM5c0c4YitPNGlBZ2F4VHlVVE1YNTY4MFozWW1PZnFnSVZ0Ryt1VU91d0p6YjhRPT0iLCJtYWMiOiJmNzBlYTkyNTlkYjM0NGFlMDQ1ZTFmNDk2MmVlOTU5NjBlYzdlZWU4MjYyZjk2MGIxODg2ZWE1YTJjMTE3ZWYxIn0%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T15:31:24+08:00 ] ::1 ::1 GET /sugoo/admin/public/
+[ info ] localhost/sugoo/admin/public/ [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,388.64kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455; XSRF-TOKEN=eyJpdiI6Ik9FT09NUURMMGRKQzgyNUYwRmljZ2c9PSIsInZhbHVlIjoiTkFMUmMzaGtWdU5nZ0szd1FlMXBGNWttcmJVRGlVWlAzQTRkY29ra25QVUx6WkRNYXBwcU4xK0cxb2tJcUVsS3RxRUFhQm9XR3ZLeDVNaXo0Y1ZhdkE9PSIsIm1hYyI6IjljNDRkYzM1ZjEwYzJjMzc4MjgyZjk3ODg2NTBkZjc3MzA4NDlhYTBhMWUwMjIzZWYyODBhMmY4YWQ0NjA0OWYifQ%3D%3D; laravel_session=eyJpdiI6ImJBUDQxc2JDQytZcXRxZzZ3Q0p3THc9PSIsInZhbHVlIjoiTzdIV0xZcTBxa3dEUzJNS3VORkdoTG1cL2RWSnlGYktpOTFHSHVNdjM5c0c4YitPNGlBZ2F4VHlVVE1YNTY4MFozWW1PZnFnSVZ0Ryt1VU91d0p6YjhRPT0iLCJtYWMiOiJmNzBlYTkyNTlkYjM0NGFlMDQ1ZTFmNDk2MmVlOTU5NjBlYzdlZWU4MjYyZjk2MGIxODg2ZWE1YTJjMTE3ZWYxIn0%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

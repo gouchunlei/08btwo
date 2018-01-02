@@ -682,3 +682,1230 @@
 [ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\system\changepwd.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:51:41+08:00 ] ::1 ::1 GET /sugoo/admin/public/
+[ info ] localhost/sugoo/admin/public/ [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,386.31kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:51:41+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/index/main.html
+[ info ] localhost/sugoo/admin/public/index/index/main.html [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,341.37kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:51:43+08:00 ] ::1 ::1 GET /sugoo/admin/public/static/main.html
+[ info ] localhost/sugoo/admin/public/static/main.html [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,144.49kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'main',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:51:46+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/user/user
+[ info ] localhost/sugoo/admin/public/index/user/user [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,390.17kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->user[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:51:52+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/category/index
+[ info ] localhost/sugoo/admin/public/index/category/index [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,390.23kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Category->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\category\category.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:51:53+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/category/index
+[ info ] localhost/sugoo/admin/public/index/category/index [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,390.23kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Category->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\category\category.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:51:54+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/brand/index
+[ info ] localhost/sugoo/admin/public/index/brand/index [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,390.13kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Brand->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\brand\brand.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:51:54+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/category/index
+[ info ] localhost/sugoo/admin/public/index/category/index [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,390.23kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Category->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\category\category.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:51:55+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/brand/index
+[ info ] localhost/sugoo/admin/public/index/brand/index [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,390.13kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Brand->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\brand\brand.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:51:56+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/category/index
+[ info ] localhost/sugoo/admin/public/index/category/index [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,390.23kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Category->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\category\category.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:51:57+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/brand/index
+[ info ] localhost/sugoo/admin/public/index/brand/index [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,390.13kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Brand->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\brand\brand.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:51:58+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/category/index
+[ info ] localhost/sugoo/admin/public/index/category/index [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,390.23kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Category->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\category\category.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:51:58+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/brand/index
+[ info ] localhost/sugoo/admin/public/index/brand/index [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,390.13kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Brand->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\brand\brand.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:52:00+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/vip/index
+[ info ] localhost/sugoo/admin/public/index/vip/index [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,390.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'vip',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Vip->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Vip.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\vip\vip.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:52:02+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/order/index
+[ info ] localhost/sugoo/admin/public/index/order/index [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,510.09kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Order.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\order\order.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:52:04+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/cupon/index
+[ info ] localhost/sugoo/admin/public/index/cupon/index [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,340.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cupon->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Cupon.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\cupon\cupon.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:52:05+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/talk/index
+[ info ] localhost/sugoo/admin/public/index/talk/index [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,340.77kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'talk',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Talk->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Talk.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\talk\talk.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:52:07+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/trading/index
+[ info ] localhost/sugoo/admin/public/index/trading/index [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,390.18kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'trading',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Trading->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Trading.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\trading\trading.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:52:09+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/money/index
+[ info ] localhost/sugoo/admin/public/index/money/index [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,340.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'money',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Money->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Money.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\money\money.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:52:10+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/system/index
+[ info ] localhost/sugoo/admin/public/index/system/index [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,340.84kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\System->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\System.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\system\changepwd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:52:13+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/money/index
+[ info ] localhost/sugoo/admin/public/index/money/index [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,340.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'money',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Money->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Money.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\money\money.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:52:15+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/trading/index
+[ info ] localhost/sugoo/admin/public/index/trading/index [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,390.18kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'trading',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Trading->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Trading.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\trading\trading.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:52:17+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/talk/index
+[ info ] localhost/sugoo/admin/public/index/talk/index [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,340.77kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'talk',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Talk->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Talk.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\talk\talk.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:52:19+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/cupon/index
+[ info ] localhost/sugoo/admin/public/index/cupon/index [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,340.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cupon->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Cupon.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\cupon\cupon.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:52:32+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/vip/index
+[ info ] localhost/sugoo/admin/public/index/vip/index [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,390.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'vip',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Vip->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Vip.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\vip\vip.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:52:35+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/order/index
+[ info ] localhost/sugoo/admin/public/index/order/index [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,390.12kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Order.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\order\order.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:53:51+08:00 ] ::1 ::1 GET /sugoo/admin/public/
+[ info ] localhost/sugoo/admin/public/ [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,386.31kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:53:51+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/index/main.html
+[ info ] localhost/sugoo/admin/public/index/index/main.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,341.37kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:53:54+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/user/user
+[ info ] localhost/sugoo/admin/public/index/user/user [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,390.17kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->user[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:53:55+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/user/user
+[ info ] localhost/sugoo/admin/public/index/user/user [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,390.17kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->user[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:53:57+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/category/index
+[ info ] localhost/sugoo/admin/public/index/category/index [运行时间：0.020002s][吞吐率：50.00req/s] [内存消耗：1,390.23kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Category->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\category\category.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:54:01+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/order/index
+[ info ] localhost/sugoo/admin/public/index/order/index [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,390.12kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Order.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\order\order.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:54:03+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/cupon/index
+[ info ] localhost/sugoo/admin/public/index/cupon/index [运行时间：0.021002s][吞吐率：47.61req/s] [内存消耗：1,340.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cupon->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Cupon.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\cupon\cupon.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:54:07+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/trading/index
+[ info ] localhost/sugoo/admin/public/index/trading/index [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,390.18kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'trading',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Trading->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Trading.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\trading\trading.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:54:09+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/money/index
+[ info ] localhost/sugoo/admin/public/index/money/index [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,340.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'money',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Money->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Money.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\money\money.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:54:10+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/money/index
+[ info ] localhost/sugoo/admin/public/index/money/index [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,340.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'money',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Money->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Money.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\money\money.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:54:11+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/system/index
+[ info ] localhost/sugoo/admin/public/index/system/index [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,340.84kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\System->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\System.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\system\changepwd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T11:10:12+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/vip/index
+[ info ] localhost/sugoo/admin/public/index/vip/index [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,390.61kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'vip',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Vip->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Vip.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\vip\vip.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T11:10:14+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/category/index
+[ info ] localhost/sugoo/admin/public/index/category/index [运行时间：0.020002s][吞吐率：49.99req/s] [内存消耗：1,390.23kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Category->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\category\category.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T11:10:15+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/brand/index
+[ info ] localhost/sugoo/admin/public/index/brand/index [运行时间：0.021002s][吞吐率：47.61req/s] [内存消耗：1,390.13kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Brand->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\brand\brand.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T11:10:16+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/user/user
+[ info ] localhost/sugoo/admin/public/index/user/user [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,390.17kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->user[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,2956 @@
+---------------------------------------------------------------
+[ 2017-12-28T08:21:40+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：2.241282s][吞吐率：0.45req/s] [内存消耗：1,634.12kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:21:40+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.155795s][吞吐率：6.42req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:22:37+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.083096s][吞吐率：12.03req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:22:37+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.109020s][吞吐率：9.17req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:22:40+08:00 ] ::1 ::1 GET /mall/admin/public/index/cupon/index%22
+[ info ] localhost/mall/admin/public/index/cupon/index%22 [运行时间：0.425123s][吞吐率：2.35req/s] [内存消耗：1,611.22kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'index"',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:23:25+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.094366s][吞吐率：10.60req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:23:25+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.127037s][吞吐率：7.87req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:23:28+08:00 ] ::1 ::1 GET /mall/admin/public/index/cupon/index%22
+[ info ] localhost/mall/admin/public/index/cupon/index%22 [运行时间：0.092411s][吞吐率：10.82req/s] [内存消耗：1,611.03kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'index"',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:23:41+08:00 ] ::1 ::1 GET /mall/admin/public/index/user/user.html
+[ info ] localhost/mall/admin/public/index/user/user.html [运行时间：0.161736s][吞吐率：6.18req/s] [内存消耗：1,637.66kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->user[ F:\phpstudy\WWW\mall\admin\application\index\controller\User.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:23:47+08:00 ] ::1 ::1 GET /mall/admin/public/index/cupon/index.html
+[ info ] localhost/mall/admin/public/index/cupon/index.html [运行时间：0.091083s][吞吐率：10.98req/s] [内存消耗：1,574.52kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cupon->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Cupon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:24:02+08:00 ] ::1 ::1 GET /mall/admin/public/index/cupon/index.html
+[ info ] localhost/mall/admin/public/index/cupon/index.html [运行时间：0.388091s][吞吐率：2.58req/s] [内存消耗：1,713.51kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cupon->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Cupon.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\cupon\cupon.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:24:02+08:00 ] ::1 ::1 GET /mall/admin/public/index/cupon/img/delete.png
+[ info ] localhost/mall/admin/public/index/cupon/img/delete.png [运行时间：0.114490s][吞吐率：8.73req/s] [内存消耗：1,610.76kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/index/cupon/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:24:59+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.075959s][吞吐率：13.17req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:24:59+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.108944s][吞吐率：9.18req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:25:02+08:00 ] ::1 ::1 GET /mall/admin/public/index/cupon/index
+[ info ] localhost/mall/admin/public/index/cupon/index [运行时间：0.075320s][吞吐率：13.28req/s] [内存消耗：1,577.16kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cupon->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Cupon.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\cupon\cupon.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:25:02+08:00 ] ::1 ::1 GET /mall/admin/public/index/cupon/img/delete.png
+[ info ] localhost/mall/admin/public/index/cupon/img/delete.png [运行时间：0.122708s][吞吐率：8.15req/s] [内存消耗：1,610.69kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/index/cupon/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:25:04+08:00 ] ::1 ::1 GET /mall/admin/public/index/cupon/index?
+[ info ] localhost/mall/admin/public/index/cupon/index? [运行时间：0.082582s][吞吐率：12.11req/s] [内存消耗：1,577.23kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/index/cupon/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cupon->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Cupon.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\cupon\cupon.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:25:04+08:00 ] ::1 ::1 GET /mall/admin/public/index/cupon/img/delete.png
+[ info ] localhost/mall/admin/public/index/cupon/img/delete.png [运行时间：0.117134s][吞吐率：8.54req/s] [内存消耗：1,610.68kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/index/cupon/index?',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:27:02+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.098311s][吞吐率：10.17req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:27:02+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.121895s][吞吐率：8.20req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:27:09+08:00 ] ::1 ::1 GET /mall/admin/public/index/cupon/index
+[ info ] localhost/mall/admin/public/index/cupon/index [运行时间：0.131551s][吞吐率：7.60req/s] [内存消耗：1,713.67kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cupon->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Cupon.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\cupon\cupon.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:28:18+08:00 ] ::1 ::1 GET /mall/admin/public/index/vip/index
+[ info ] localhost/mall/admin/public/index/vip/index [运行时间：0.174591s][吞吐率：5.73req/s] [内存消耗：1,638.74kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'vip',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Vip->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Vip.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\vip\vip.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:28:26+08:00 ] ::1 ::1 GET /mall/admin/public/index/user/user
+[ info ] localhost/mall/admin/public/index/user/user [运行时间：0.078991s][吞吐率：12.66req/s] [内存消耗：1,638.18kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->user[ F:\phpstudy\WWW\mall\admin\application\index\controller\User.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:38:27+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.082989s][吞吐率：12.05req/s] [内存消耗：1,634.09kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:38:27+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.128100s][吞吐率：7.81req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:38:29+08:00 ] ::1 ::1 GET /mall/admin/public/index/order/index
+[ info ] localhost/mall/admin/public/index/order/index [运行时间：0.134249s][吞吐率：7.45req/s] [内存消耗：1,612.20kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:F:\phpstudy\WWW\mall\admin\public/../application/index\view\order\topic.html[F:\phpstudy\WWW\mall\admin\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-12-28T08:38:41+08:00 ] ::1 ::1 GET /mall/admin/public/index/user/user.html
+[ info ] localhost/mall/admin/public/index/user/user.html [运行时间：0.073514s][吞吐率：13.60req/s] [内存消耗：1,637.66kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->user[ F:\phpstudy\WWW\mall\admin\application\index\controller\User.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:38:51+08:00 ] ::1 ::1 GET /mall/admin/public/index/order/index.html
+[ info ] localhost/mall/admin/public/index/order/index.html [运行时间：0.092917s][吞吐率：10.76req/s] [内存消耗：1,611.81kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:F:\phpstudy\WWW\mall\admin\public/../application/index\view\order\topic.html[F:\phpstudy\WWW\mall\admin\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-12-28T08:39:19+08:00 ] ::1 ::1 GET /mall/admin/public/index/order/index.html
+[ info ] localhost/mall/admin/public/index/order/index.html [运行时间：0.166417s][吞吐率：6.01req/s] [内存消耗：1,716.62kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Order.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\order\order.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:39:25+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.078903s][吞吐率：12.67req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:39:26+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.128309s][吞吐率：7.79req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:39:28+08:00 ] ::1 ::1 GET /mall/admin/public/index/order/index
+[ info ] localhost/mall/admin/public/index/order/index [运行时间：0.077613s][吞吐率：12.88req/s] [内存消耗：1,578.58kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Order.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\order\order.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:39:31+08:00 ] ::1 ::1 GET /mall/admin/public/index/order/topicadd.html
+[ info ] localhost/mall/admin/public/index/order/topicadd.html [运行时间：0.081871s][吞吐率：12.21req/s] [内存消耗：1,612.73kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'topicadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/index/order/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:39:35+08:00 ] ::1 ::1 GET /mall/admin/public/index/order/connoisseuradd.html
+[ info ] localhost/mall/admin/public/index/order/connoisseuradd.html [运行时间：0.098193s][吞吐率：10.18req/s] [内存消耗：1,612.77kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'connoisseuradd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/index/order/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:41:56+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.084964s][吞吐率：11.77req/s] [内存消耗：1,634.26kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:41:57+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.208956s][吞吐率：4.79req/s] [内存消耗：1,578.30kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:42:00+08:00 ] ::1 ::1 GET /mall/admin/public/index/order/index
+[ info ] localhost/mall/admin/public/index/order/index [运行时间：0.149575s][吞吐率：6.69req/s] [内存消耗：1,776.93kb] [文件加载：48]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Order.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\order\order.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:42:01+08:00 ] ::1 ::1 GET /mall/admin/public/index/order/orderadd.html
+[ info ] localhost/mall/admin/public/index/order/orderadd.html [运行时间：0.122353s][吞吐率：8.17req/s] [内存消耗：1,714.01kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/index/order/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Order->orderadd[ F:\phpstudy\WWW\mall\admin\application\index\controller\Order.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\order\orderadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:42:03+08:00 ] ::1 ::1 GET /mall/admin/public/index/order/index
+[ info ] localhost/mall/admin/public/index/order/index [运行时间：0.101306s][吞吐率：9.87req/s] [内存消耗：1,638.62kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Order.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\order\order.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:42:07+08:00 ] ::1 ::1 GET /mall/admin/public/index/user/user
+[ info ] localhost/mall/admin/public/index/user/user [运行时间：0.080175s][吞吐率：12.47req/s] [内存消耗：1,638.67kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->user[ F:\phpstudy\WWW\mall\admin\application\index\controller\User.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:42:13+08:00 ] ::1 ::1 POST /mall/admin/public/index/user/useradd.html
+[ info ] localhost/mall/admin/public/index/user/useradd.html [运行时间：0.097076s][吞吐率：10.30req/s] [内存消耗：1,712.66kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'useradd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/mall/admin/public/index/user/user',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->userAdd[ F:\phpstudy\WWW\mall\admin\application\index\controller\User.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\user\useradd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:42:20+08:00 ] ::1 ::1 GET /mall/admin/public/index/vip/index
+[ info ] localhost/mall/admin/public/index/vip/index [运行时间：0.075058s][吞吐率：13.32req/s] [内存消耗：1,638.74kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'vip',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Vip->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Vip.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\vip\vip.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:42:26+08:00 ] ::1 ::1 GET /mall/admin/public/index/vip/vipadd2.html
+[ info ] localhost/mall/admin/public/index/vip/vipadd2.html [运行时间：0.103360s][吞吐率：9.67req/s] [内存消耗：1,579.23kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'vip',
+    2 => 'vipadd2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/index/vip/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Vip->vipadd2[ F:\phpstudy\WWW\mall\admin\application\index\controller\Vip.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\vip\vipadd2.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:42:32+08:00 ] ::1 ::1 GET /mall/admin/public/index/vip/vipadd.html
+[ info ] localhost/mall/admin/public/index/vip/vipadd.html [运行时间：0.148247s][吞吐率：6.75req/s] [内存消耗：1,579.23kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'vip',
+    2 => 'vipadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/index/vip/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Vip->vipadd[ F:\phpstudy\WWW\mall\admin\application\index\controller\Vip.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\vip\vipadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:43:27+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.081257s][吞吐率：12.31req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:43:27+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.135009s][吞吐率：7.41req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:46:22+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.082817s][吞吐率：12.07req/s] [内存消耗：1,634.09kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:46:22+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.117896s][吞吐率：8.48req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:46:25+08:00 ] ::1 ::1 GET /mall/admin/public/index/talk/index
+[ info ] localhost/mall/admin/public/index/talk/index [运行时间：0.278654s][吞吐率：3.59req/s] [内存消耗：1,366.01kb] [文件加载：41]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'talk',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '{', expecting '('[F:\phpstudy\WWW\mall\admin\application\index\controller\Talk.php:10]
+---------------------------------------------------------------
+[ 2017-12-28T08:46:47+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.117709s][吞吐率：8.50req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:46:47+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.122262s][吞吐率：8.18req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:46:51+08:00 ] ::1 ::1 GET /mall/admin/public/index/talk/index
+[ info ] localhost/mall/admin/public/index/talk/index [运行时间：0.119926s][吞吐率：8.34req/s] [内存消耗：1,711.30kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'talk',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Talk->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Talk.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\talk\talk.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:46:56+08:00 ] ::1 ::1 GET /mall/admin/public/static/appointment.html
+[ info ] localhost/mall/admin/public/static/appointment.html [运行时间：0.054798s][吞吐率：18.25req/s] [内存消耗：1,346.85kb] [文件加载：40]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'appointment',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:47:44+08:00 ] ::1 ::1 GET /mall/admin/public/static/changepwd.html
+[ info ] localhost/mall/admin/public/static/changepwd.html [运行时间：0.084708s][吞吐率：11.81req/s] [内存消耗：1,346.84kb] [文件加载：40]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'changepwd',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:54:21+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.094781s][吞吐率：10.55req/s] [内存消耗：1,634.09kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:54:21+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.139806s][吞吐率：7.15req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:54:25+08:00 ] ::1 ::1 GET /mall/admin/public/index/system/index
+[ info ] localhost/mall/admin/public/index/system/index [运行时间：0.232203s][吞吐率：4.31req/s] [内存消耗：1,713.45kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\System->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\System.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\system\changepwd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T08:59:59+08:00 ] ::1 ::1 GET /mall/admin/public/static/balance.html
+[ info ] localhost/mall/admin/public/static/balance.html [运行时间：0.090506s][吞吐率：11.05req/s] [内存消耗：1,346.80kb] [文件加载：40]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'balance',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:00:11+08:00 ] ::1 ::1 GET /mall/admin/public/static/appointment.html
+[ info ] localhost/mall/admin/public/static/appointment.html [运行时间：0.097926s][吞吐率：10.21req/s] [内存消耗：1,346.85kb] [文件加载：40]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'appointment',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:15:48+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.086790s][吞吐率：11.52req/s] [内存消耗：1,634.09kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:15:48+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.129085s][吞吐率：7.75req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:15:52+08:00 ] ::1 ::1 GET /mall/admin/public/index/trading/index
+[ info ] localhost/mall/admin/public/index/trading/index [运行时间：0.198266s][吞吐率：5.04req/s] [内存消耗：1,716.69kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'trading',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Trading->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Trading.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\trading\trading.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:16:31+08:00 ] ::1 ::1 GET /mall/admin/public/index/trading/topicadd.html
+[ info ] localhost/mall/admin/public/index/trading/topicadd.html [运行时间：0.090721s][吞吐率：11.02req/s] [内存消耗：1,612.73kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'trading',
+    2 => 'topicadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/index/trading/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:22:19+08:00 ] ::1 ::1 GET /mall/admin/public/index/trading/topicadd.html
+[ info ] localhost/mall/admin/public/index/trading/topicadd.html [运行时间：0.099293s][吞吐率：10.07req/s] [内存消耗：1,612.73kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'trading',
+    2 => 'topicadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/index/trading/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:24:23+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.099944s][吞吐率：10.01req/s] [内存消耗：1,634.09kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:24:24+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.160414s][吞吐率：6.23req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:24:54+08:00 ] ::1 ::1 GET /mall/admin/public/index/trading/index
+[ info ] localhost/mall/admin/public/index/trading/index [运行时间：0.110824s][吞吐率：9.02req/s] [内存消耗：1,776.49kb] [文件加载：48]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'trading',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Trading->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Trading.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\trading\trading.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:24:56+08:00 ] ::1 ::1 GET /mall/admin/public/index/trading/tradingupdate.html
+[ info ] localhost/mall/admin/public/index/trading/tradingupdate.html [运行时间：0.163626s][吞吐率：6.11req/s] [内存消耗：1,713.69kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'trading',
+    2 => 'tradingupdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/index/trading/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Trading->tradingupdate[ F:\phpstudy\WWW\mall\admin\application\index\controller\Trading.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\trading\tradingupdate.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:25:01+08:00 ] ::1 ::1 GET /mall/admin/public/static/balance.html
+[ info ] localhost/mall/admin/public/static/balance.html [运行时间：0.087162s][吞吐率：11.47req/s] [内存消耗：1,346.81kb] [文件加载：40]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'balance',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:25:40+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.106608s][吞吐率：9.38req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:25:40+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.125349s][吞吐率：7.98req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:27:29+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.085921s][吞吐率：11.64req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:27:29+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.126002s][吞吐率：7.94req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:28:35+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.110103s][吞吐率：9.08req/s] [内存消耗：1,766.30kb] [文件加载：48]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:28:36+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.143708s][吞吐率：6.96req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:28:40+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.081844s][吞吐率：12.22req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:28:40+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.149146s][吞吐率：6.70req/s] [内存消耗：1,578.09kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:28:41+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.150036s][吞吐率：6.67req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:28:41+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.083375s][吞吐率：11.99req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:28:41+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.147013s][吞吐率：6.80req/s] [内存消耗：1,578.09kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:28:41+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.106090s][吞吐率：9.43req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:28:42+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.093785s][吞吐率：10.66req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T09:28:45+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
+[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.225341s][吞吐率：4.44req/s] [内存消耗：1,770.94kb] [文件加载：48]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'log',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/head.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:40:52+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.208361s][吞吐率：4.80req/s] [内存消耗：1,634.09kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:40:53+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.096080s][吞吐率：10.41req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:44:44+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.091388s][吞吐率：10.94req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:44:44+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.123866s][吞吐率：8.07req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:44:47+08:00 ] ::1 ::1 GET /mall/admin/public/index/money/index
+[ info ] localhost/mall/admin/public/index/money/index [运行时间：0.082889s][吞吐率：12.06req/s] [内存消耗：1,574.87kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'money',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Money->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Money.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:44:52+08:00 ] ::1 ::1 GET /mall/admin/public/index/money/index
+[ info ] localhost/mall/admin/public/index/money/index [运行时间：0.082993s][吞吐率：12.05req/s] [内存消耗：1,574.87kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'money',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Money->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Money.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:45:23+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.089034s][吞吐率：11.23req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:45:23+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.136538s][吞吐率：7.32req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:45:31+08:00 ] ::1 ::1 GET /mall/admin/public/index/money/index
+[ info ] localhost/mall/admin/public/index/money/index [运行时间：0.452497s][吞吐率：2.21req/s] [内存消耗：1,713.56kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'money',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/left.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Money->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Money.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\money\money.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:45:49+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
+[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.135115s][吞吐率：7.40req/s] [内存消耗：1,636.79kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'log',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/head.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:47:38+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.093711s][吞吐率：10.67req/s] [内存消耗：1,633.96kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:47:38+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.140131s][吞吐率：7.14req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:47:44+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
+[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.081184s][吞吐率：12.32req/s] [内存消耗：1,636.79kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'log',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/static/inc/head.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:48:04+08:00 ] ::1 ::1 GET /mall/admin/public/index/user/user.html
+[ info ] localhost/mall/admin/public/index/user/user.html [运行时间：0.167940s][吞吐率：5.95req/s] [内存消耗：1,637.66kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->user[ F:\phpstudy\WWW\mall\admin\application\index\controller\User.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:48:18+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log.html?
+[ info ] localhost/mall/admin/public/index/login/log.html? [运行时间：0.080824s][吞吐率：12.37req/s] [内存消耗：1,636.38kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'log',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:49:07+08:00 ] ::1 ::1 GET /mall/admin/public/
+[ info ] localhost/mall/admin/public/ [运行时间：0.111107s][吞吐率：9.00req/s] [内存消耗：1,634.13kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-28T13:49:08+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
+[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.204253s][吞吐率：4.90req/s] [内存消耗：1,577.81kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1496720384',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/mall/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

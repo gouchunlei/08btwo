@@ -13,22 +13,7 @@
 	<script type="text/javascript" src="js/jquery.bxslider_e88acd1b.js"></script>
     
     <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-    <script type="text/javascript" src="js/menu.js"></script>    
-        
-	<script type="text/javascript" src="js/select.js"></script>
-    
-	<script type="text/javascript" src="js/lrscroll.js"></script>
-    
-    <script type="text/javascript" src="js/iban.js"></script>
-    <script type="text/javascript" src="js/fban.js"></script>
-    <script type="text/javascript" src="js/f_ban.js"></script>
-    <script type="text/javascript" src="js/mban.js"></script>
-    <script type="text/javascript" src="js/bban.js"></script>
-    <script type="text/javascript" src="js/hban.js"></script>
-    <script type="text/javascript" src="js/tban.js"></script>
-    
-	<script type="text/javascript" src="js/lrscroll_1.js"></script>
-    
+    <script type="text/javascript" src="js/menu.js"></script>
     
 <title>尤洪</title>
 </head>
@@ -37,7 +22,7 @@
 <div class="soubg">
 	<div class="sou">
         <span class="fr">
-        	<span class="fl">你好，请<a href="login">登录</a>&nbsp; <a href="regis" style="color:#ff4e00;">免费注册</a>&nbsp; </span>
+        	<span class="fl">你好，请<a href="login">登录</a>&nbsp; <a href="regis" style="color:#ff4e00;">免费注册</a></span>
             <span class="fl">|&nbsp;关注我们：</span>
             <span class="s_sh"><a href="#" class="sh1">新浪</a><a href="#" class="sh2">微信</a></span>
             <span class="fr">|&nbsp;<a href="#">手机版&nbsp;<img src="images/s_tel.png" align="absmiddle" /></a></span>
@@ -64,31 +49,23 @@
               </tr>
               <tr height="50">
                 <td align="right"><font color="#ff4e00">*</font>&nbsp;用户名 &nbsp;</td>
-                <td><input type="text" value="" class="l_user" /></td>
+                <td><input type="text" value="" class="l_user username" /></td>
               </tr>
               <tr height="50">
                 <td align="right"><font color="#ff4e00">*</font>&nbsp;密码 &nbsp;</td>
-                <td><input type="password" value="" class="l_pwd" /></td>
+                <td><input type="password" value="" class="l_pwd one_pwd" /></td>
               </tr>
               <tr height="50">
                 <td align="right"><font color="#ff4e00">*</font>&nbsp;确认密码 &nbsp;</td>
-                <td><input type="password" value="" class="l_pwd" /></td>
+                <td><input type="password" value="" class="l_pwd two_pwd" /></td>
               </tr>
               <tr height="50">
                 <td align="right"><font color="#ff4e00">*</font>&nbsp;邮箱 &nbsp;</td>
-                <td><input type="text" value="" class="l_email" /></td>
+                <td><input type="text" value="" class="l_email email" /></td>
               </tr>
               <tr height="50">
                 <td align="right"><font color="#ff4e00">*</font>&nbsp;手机 &nbsp;</td>
-                <td><input type="text" value="" class="l_tel" /></td>
-              </tr>
-              <tr height="50">
-                <td align="right">邀请人会员名 &nbsp;</td>
-                <td><input type="text" value="" class="l_mem" /></td>
-              </tr>
-              <tr height="50">
-                <td align="right">邀请人ID号 &nbsp;</td>
-                <td><input type="text" value="" class="l_num" /></td>
+                <td><input type="text" value="" class="l_tel phone" /></td>
               </tr>
               <tr height="50">
                 <td align="right"> <font color="#ff4e00">*</font>&nbsp;验证码 &nbsp;</td>
@@ -123,10 +100,7 @@
     </div>    	
 </div>
 <!--End Footer End -->    
-
 </body>
-
-
 <!--[if IE 6]>
 <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
 <![endif]-->

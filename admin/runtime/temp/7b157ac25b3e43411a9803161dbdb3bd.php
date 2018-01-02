@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:76:"F:\phpstudy\WWW\mall\admin\public/../application/index\view\cupon\cupon.html";i:1514420819;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\money\money.html";i:1514439862;}*/ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -14,7 +14,7 @@
 		<div class="pageTop">
 			<div class="page">
 				<img src="__IMG__coin02.png" /><span><a href="#">首页</a>&nbsp;-&nbsp;<a
-					href="#">红包管理</a>&nbsp;-</span>
+					href="#">财务管理</a>&nbsp;-</span>
 			</div>
 		</div>
 

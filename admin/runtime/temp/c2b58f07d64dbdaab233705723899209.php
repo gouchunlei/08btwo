@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:76:"F:\phpstudy\WWW\mall\admin\public/../application/index\view\order\order.html";i:1514421713;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:81:"D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\trading\trading.html";i:1514424396;}*/ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -34,7 +34,7 @@
 						<div class="cfD">
 							<input class="addUser" type="text" placeholder="话题ID/行家UID/话题标题" />
 							<button class="button">搜索</button>
-							<a class="addA addA1" href="<?php echo url('index/order/orderadd'); ?>">添加话题+</a>
+							<a class="addA addA1" href="<?php echo url('index/trading/index'); ?>">添加话题+</a>
 						</div>
 					</form>
 				</div>
@@ -72,7 +72,7 @@
 							<td>2015-12-12 12.12</td>
 							<td>未审核</td>
 							<td>否</td>
-							<td><a href="<?php echo url('index/order/orderupdate'); ?>"><img class="operation"
+							<td><a href="<?php echo url('index/trading/tradingupdate'); ?>"><img class="operation"
 									src="__IMG__update.png"></a> <img class="operation delban"
 								src="__IMG__delete.png"></td>
 						</tr>

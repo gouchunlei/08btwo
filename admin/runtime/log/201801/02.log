@@ -1,7 +1,7 @@
 ---------------------------------------------------------------
-[ 2018-01-02T09:23:01+08:00 ] ::1 ::1 GET /mall/admin/public/
-[ info ] localhost/mall/admin/public/ [运行时间：3.038090s][吞吐率：0.33req/s] [内存消耗：1,384.60kb] [文件加载：46]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ 2018-01-02T10:46:55+08:00 ] ::1 ::1 GET /sugoo/admin/public/
+[ info ] localhost/sugoo/admin/public/ [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,500.30kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -12,82 +12,26 @@
   ),
 )
 [ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
   'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
   'connection' => 'close',
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\index.html [ array (
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
 ---------------------------------------------------------------
-[ 2018-01-02T09:23:01+08:00 ] ::1 ::1 GET /mall/admin/public/admin/public/static/inc/head.html
-[ info ] localhost/mall/admin/public/admin/public/static/inc/head.html [运行时间：0.492465s][吞吐率：2.03req/s] [内存消耗：1,143.21kb] [文件加载：40]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'public',
-    2 => 'static',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'inc' => 'head',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:02+08:00 ] ::1 ::1 GET /mall/admin/public/admin/public/static/inc/left.html
-[ info ] localhost/mall/admin/public/admin/public/static/inc/left.html [运行时间：0.080249s][吞吐率：12.46req/s] [内存消耗：1,143.22kb] [文件加载：40]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'public',
-    2 => 'static',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'inc' => 'left',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:02+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/main.html
-[ info ] localhost/mall/admin/public/index/index/main.html [运行时间：0.171109s][吞吐率：5.84req/s] [内存消耗：1,339.70kb] [文件加载：45]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
+[ 2018-01-02T10:46:55+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/index/main.html
+[ info ] localhost/sugoo/admin/public/index/index/main.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,454.67kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -98,2708 +42,643 @@
   ),
 )
 [ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\mall\admin\application\index\controller\Index.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\index\main.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:03+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/admin/public/static/css/css.css
-[ info ] localhost/mall/admin/public/index/index/admin/public/static/css/css.css [运行时间：0.102987s][吞吐率：9.71req/s] [内存消耗：1,363.77kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'index',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/index/main.html',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'text/css,*/*;q=0.1',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'css' => 'css.css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:03+08:00 ] ::1 ::1 GET /mall/admin/public/index/index/admin/public/static/img/indexBanner.png
-[ info ] localhost/mall/admin/public/index/index/admin/public/static/img/indexBanner.png [运行时间：0.102952s][吞吐率：9.71req/s] [内存消耗：1,363.91kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'index',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/index/main.html',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'indexBanner.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:24+08:00 ] ::1 ::1 GET /mall/admin/public/admin/public/static/inc/head.html
-[ info ] localhost/mall/admin/public/admin/public/static/inc/head.html [运行时间：0.085607s][吞吐率：11.68req/s] [内存消耗：1,142.86kb] [文件加载：40]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'public',
-    2 => 'static',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'inc' => 'head',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:30+08:00 ] ::1 ::1 GET /mall/admin/public/admin/public/static/inc/left.html
-[ info ] localhost/mall/admin/public/admin/public/static/inc/left.html [运行时间：0.071314s][吞吐率：14.02req/s] [内存消耗：1,142.86kb] [文件加载：40]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'public',
-    2 => 'static',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'inc' => 'left',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:48+08:00 ] ::1 ::1 GET /mall/admin/public/login/log
-[ info ] localhost/mall/admin/public/login/log [运行时间：0.073689s][吞吐率：13.57req/s] [内存消耗：1,142.36kb] [文件加载：40]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'login',
-    1 => 'log',
-    2 => NULL,
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:56+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
-[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.135244s][吞吐率：7.39req/s] [内存消耗：1,386.87kb] [文件加载：46]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'log',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:56+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/css/public.css
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/css/public.css [运行时间：0.123057s][吞吐率：8.13req/s] [内存消耗：1,363.36kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'text/css,*/*;q=0.1',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'css' => 'public.css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:56+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/css/page.css
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/css/page.css [运行时间：0.142617s][吞吐率：7.01req/s] [内存消耗：1,363.40kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'text/css,*/*;q=0.1',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'css' => 'page.css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:57+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/jquery.min.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/jquery.min.js [运行时间：0.087724s][吞吐率：11.40req/s] [内存消耗：1,363.23kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'jquery.min.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:57+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/public.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/public.js [运行时间：0.084835s][吞吐率：11.79req/s] [内存消耗：1,363.35kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'public.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:57+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logBanner.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logBanner.png [运行时间：0.104890s][吞吐率：9.53req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logBanner.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:57+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logName.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logName.png [运行时间：0.100827s][吞吐率：9.92req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logName.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:58+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logLOGO.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logLOGO.png [运行时间：0.075648s][吞吐率：13.22req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logLOGO.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:59+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logPwd.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logPwd.png [运行时间：0.113524s][吞吐率：8.81req/s] [内存消耗：1,363.37kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logPwd.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:23:59+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logYZM.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logYZM.png [运行时间：0.144897s][吞吐率：6.90req/s] [内存消耗：1,363.37kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logYZM.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:24:03+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/public.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/public.js [运行时间：0.113297s][吞吐率：8.83req/s] [内存消耗：1,363.48kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'public.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:24:18+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logLOGO.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logLOGO.png [运行时间：0.085714s][吞吐率：11.67req/s] [内存消耗：1,363.43kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logLOGO.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:24:56+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
-[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.062156s][吞吐率：16.09req/s] [内存消耗：1,387.19kb] [文件加载：46]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'log',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'cache-control' => 'max-age=0',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:24:56+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/css/page.css
-[ info ] localhost/mall/admin/public/index/login/public/static/css/page.css [运行时间：0.093722s][吞吐率：10.67req/s] [内存消耗：1,363.10kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'text/css,*/*;q=0.1',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:24:56+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/css/public.css
-[ info ] localhost/mall/admin/public/index/login/public/static/css/public.css [运行时间：0.105370s][吞吐率：9.49req/s] [内存消耗：1,363.19kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'text/css,*/*;q=0.1',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:24:57+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/js/jquery.min.js
-[ info ] localhost/mall/admin/public/index/login/public/static/js/jquery.min.js [运行时间：0.041194s][吞吐率：24.28req/s] [内存消耗：1,363.09kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:24:57+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/js/public.js
-[ info ] localhost/mall/admin/public/index/login/public/static/js/public.js [运行时间：0.047535s][吞吐率：21.04req/s] [内存消耗：1,362.94kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:24:57+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/img//logYZM.png
-[ info ] localhost/mall/admin/public/index/login/public/static/img//logYZM.png [运行时间：0.043266s][吞吐率：23.11req/s] [内存消耗：1,363.09kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'img',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:24:57+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/img//logName.png
-[ info ] localhost/mall/admin/public/index/login/public/static/img//logName.png [运行时间：0.049141s][吞吐率：20.35req/s] [内存消耗：1,363.09kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'img',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:24:58+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/img//logLOGO.png
-[ info ] localhost/mall/admin/public/index/login/public/static/img//logLOGO.png [运行时间：0.038681s][吞吐率：25.85req/s] [内存消耗：1,363.09kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'img',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:24:58+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/img//logPwd.png
-[ info ] localhost/mall/admin/public/index/login/public/static/img//logPwd.png [运行时间：0.043244s][吞吐率：23.12req/s] [内存消耗：1,363.09kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'img',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:24:58+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/img//logBanner.png
-[ info ] localhost/mall/admin/public/index/login/public/static/img//logBanner.png [运行时间：0.045926s][吞吐率：21.77req/s] [内存消耗：1,363.11kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'img',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:25:03+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/js/public.js
-[ info ] localhost/mall/admin/public/index/login/public/static/js/public.js [运行时间：0.100855s][吞吐率：9.92req/s] [内存消耗：1,363.18kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:25:41+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
-[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.086588s][吞吐率：11.55req/s] [内存消耗：1,336.77kb] [文件加载：44]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'log',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'cache-control' => 'max-age=0',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:01+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
-[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.070043s][吞吐率：14.28req/s] [内存消耗：1,387.19kb] [文件加载：46]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'log',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'cache-control' => 'max-age=0',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:01+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/js/jquery.min.js
-[ info ] localhost/mall/admin/public/index/login/public/static/js/jquery.min.js [运行时间：0.118828s][吞吐率：8.42req/s] [内存消耗：1,363.09kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:01+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/css/public.css
-[ info ] localhost/mall/admin/public/index/login/public/static/css/public.css [运行时间：0.133210s][吞吐率：7.51req/s] [内存消耗：1,363.19kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'text/css,*/*;q=0.1',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:02+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/css/page.css
-[ info ] localhost/mall/admin/public/index/login/public/static/css/page.css [运行时间：0.093650s][吞吐率：10.68req/s] [内存消耗：1,363.10kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'text/css,*/*;q=0.1',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:02+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/js/public.js
-[ info ] localhost/mall/admin/public/index/login/public/static/js/public.js [运行时间：0.092048s][吞吐率：10.86req/s] [内存消耗：1,362.94kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:03+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/img//logYZM.png
-[ info ] localhost/mall/admin/public/index/login/public/static/img//logYZM.png [运行时间：0.157538s][吞吐率：6.35req/s] [内存消耗：1,363.09kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'img',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:04+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/img//logLOGO.png
-[ info ] localhost/mall/admin/public/index/login/public/static/img//logLOGO.png [运行时间：0.448153s][吞吐率：2.23req/s] [内存消耗：1,363.09kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'img',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:04+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/img//logBanner.png
-[ info ] localhost/mall/admin/public/index/login/public/static/img//logBanner.png [运行时间：0.179212s][吞吐率：5.58req/s] [内存消耗：1,363.19kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'img',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:04+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/img//logName.png
-[ info ] localhost/mall/admin/public/index/login/public/static/img//logName.png [运行时间：0.192759s][吞吐率：5.19req/s] [内存消耗：1,363.18kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'img',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:04+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/img//logPwd.png
-[ info ] localhost/mall/admin/public/index/login/public/static/img//logPwd.png [运行时间：0.187234s][吞吐率：5.34req/s] [内存消耗：1,363.18kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'img',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:15+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/img//logBanner.png
-[ info ] localhost/mall/admin/public/index/login/public/static/img//logBanner.png [运行时间：0.089490s][吞吐率：11.17req/s] [内存消耗：1,363.22kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'img',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:54+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
-[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.077441s][吞吐率：12.91req/s] [内存消耗：1,387.18kb] [文件加载：46]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'log',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'cache-control' => 'max-age=0',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:54+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/css/page.css
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/css/page.css [运行时间：0.157888s][吞吐率：6.33req/s] [内存消耗：1,363.40kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'text/css,*/*;q=0.1',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'css' => 'page.css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:54+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/css/public.css
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/css/public.css [运行时间：0.171437s][吞吐率：5.83req/s] [内存消耗：1,363.36kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'text/css,*/*;q=0.1',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'css' => 'public.css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:54+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/jquery.min.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/jquery.min.js [运行时间：0.178392s][吞吐率：5.61req/s] [内存消耗：1,363.23kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'jquery.min.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:54+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/public.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/public.js [运行时间：0.193209s][吞吐率：5.18req/s] [内存消耗：1,363.35kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'public.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:54+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logLOGO.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logLOGO.png [运行时间：0.171803s][吞吐率：5.82req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logLOGO.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:54+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logYZM.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logYZM.png [运行时间：0.107796s][吞吐率：9.28req/s] [内存消耗：1,363.37kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logYZM.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:54+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logPwd.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logPwd.png [运行时间：0.119799s][吞吐率：8.35req/s] [内存消耗：1,363.37kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logPwd.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:55+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logName.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logName.png [运行时间：0.082426s][吞吐率：12.13req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logName.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:55+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logBanner.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logBanner.png [运行时间：0.098674s][吞吐率：10.13req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logBanner.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:26:58+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/css/public.css
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/css/public.css [运行时间：0.092642s][吞吐率：10.79req/s] [内存消耗：1,363.44kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'css' => 'public.css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:27:55+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/css/public.css
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/css/public.css [运行时间：0.083724s][吞吐率：11.94req/s] [内存消耗：1,363.72kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'cache-control' => 'max-age=0',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'css' => 'public.css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:28:21+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
-[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.072832s][吞吐率：13.73req/s] [内存消耗：1,387.20kb] [文件加载：46]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'log',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'cache-control' => 'max-age=0',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:29:28+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
-[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.094224s][吞吐率：10.61req/s] [内存消耗：1,387.18kb] [文件加载：46]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'log',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'cache-control' => 'max-age=0',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:29:29+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/css/page.css
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/css/page.css [运行时间：0.184386s][吞吐率：5.42req/s] [内存消耗：1,363.40kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'text/css,*/*;q=0.1',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'css' => 'page.css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:29:29+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/css/public.css
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/css/public.css [运行时间：0.195860s][吞吐率：5.11req/s] [内存消耗：1,363.36kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'text/css,*/*;q=0.1',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'css' => 'public.css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:29:29+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/jquery.min.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/jquery.min.js [运行时间：0.231144s][吞吐率：4.33req/s] [内存消耗：1,363.23kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'jquery.min.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:29:29+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/public.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/public.js [运行时间：0.228344s][吞吐率：4.38req/s] [内存消耗：1,363.35kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'public.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:29:29+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logLOGO.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logLOGO.png [运行时间：0.154443s][吞吐率：6.47req/s] [内存消耗：1,363.37kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logLOGO.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:29:29+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logName.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logName.png [运行时间：0.124163s][吞吐率：8.05req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logName.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:29:30+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logPwd.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logPwd.png [运行时间：0.117206s][吞吐率：8.53req/s] [内存消耗：1,363.37kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logPwd.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:29:30+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logBanner.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logBanner.png [运行时间：0.121656s][吞吐率：8.22req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logBanner.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:29:30+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logYZM.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logYZM.png [运行时间：0.134811s][吞吐率：7.42req/s] [内存消耗：1,363.37kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logYZM.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:29:33+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/public.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/public.js [运行时间：0.105016s][吞吐率：9.52req/s] [内存消耗：1,363.48kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'public.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:00+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
-[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.085210s][吞吐率：11.74req/s] [内存消耗：1,387.20kb] [文件加载：46]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'log',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'cache-control' => 'max-age=0',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:00+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/jquery.min.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/jquery.min.js [运行时间：0.126155s][吞吐率：7.93req/s] [内存消耗：1,363.23kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'jquery.min.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:00+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/public.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/public.js [运行时间：0.144421s][吞吐率：6.92req/s] [内存消耗：1,363.35kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'public.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:00+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logLOGO.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logLOGO.png [运行时间：0.140939s][吞吐率：7.10req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logLOGO.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:01+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logName.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logName.png [运行时间：0.161523s][吞吐率：6.19req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logName.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:01+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logYZM.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logYZM.png [运行时间：0.165419s][吞吐率：6.05req/s] [内存消耗：1,363.37kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logYZM.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:01+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logPwd.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logPwd.png [运行时间：0.221530s][吞吐率：4.51req/s] [内存消耗：1,363.37kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logPwd.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:01+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logBanner.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logBanner.png [运行时间：0.152260s][吞吐率：6.57req/s] [内存消耗：1,363.39kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logBanner.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:22+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
-[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.068888s][吞吐率：14.52req/s] [内存消耗：1,387.20kb] [文件加载：46]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'log',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'cache-control' => 'max-age=0',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:23+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/css/public.css
-[ info ] localhost/mall/admin/public/index/login/public/static/css/public.css [运行时间：0.129391s][吞吐率：7.73req/s] [内存消耗：1,363.19kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'text/css,*/*;q=0.1',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:24+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/css/page.css
-[ info ] localhost/mall/admin/public/index/login/public/static/css/page.css [运行时间：0.217427s][吞吐率：4.60req/s] [内存消耗：1,363.10kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'text/css,*/*;q=0.1',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:24+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/jquery.min.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/jquery.min.js [运行时间：0.134649s][吞吐率：7.43req/s] [内存消耗：1,363.29kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'jquery.min.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:24+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/public.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/public.js [运行时间：0.148366s][吞吐率：6.74req/s] [内存消耗：1,363.25kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'public.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:24+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logLOGO.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logLOGO.png [运行时间：0.140999s][吞吐率：7.09req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logLOGO.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:25+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logPwd.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logPwd.png [运行时间：0.165476s][吞吐率：6.04req/s] [内存消耗：1,363.37kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logPwd.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:25+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logBanner.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logBanner.png [运行时间：0.160475s][吞吐率：6.23req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logBanner.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:25+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logYZM.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logYZM.png [运行时间：0.222205s][吞吐率：4.50req/s] [内存消耗：1,363.37kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logYZM.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:26+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logName.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logName.png [运行时间：0.107119s][吞吐率：9.34req/s] [内存消耗：1,363.31kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logName.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:32:29+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/public/static/css/public.css
-[ info ] localhost/mall/admin/public/index/login/public/static/css/public.css [运行时间：0.107261s][吞吐率：9.32req/s] [内存消耗：1,363.22kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'public',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'static' => 'css',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:33:51+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
-[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.074762s][吞吐率：13.38req/s] [内存消耗：1,387.20kb] [文件加载：46]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'log',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'cache-control' => 'max-age=0',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:33:51+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/public.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/public.js [运行时间：0.131785s][吞吐率：7.59req/s] [内存消耗：1,363.35kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'public.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:33:51+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/js/jquery.min.js
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/js/jquery.min.js [运行时间：0.136473s][吞吐率：7.33req/s] [内存消耗：1,363.23kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => '*/*',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'js' => 'jquery.min.js',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:33:51+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logLOGO.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logLOGO.png [运行时间：0.152839s][吞吐率：6.54req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logLOGO.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:33:51+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logBanner.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logBanner.png [运行时间：0.129233s][吞吐率：7.74req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logBanner.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:33:52+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logPwd.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logPwd.png [运行时间：0.074502s][吞吐率：13.42req/s] [内存消耗：1,363.37kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logPwd.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:33:53+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logName.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logName.png [运行时间：0.105106s][吞吐率：9.51req/s] [内存消耗：1,363.38kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logName.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:33:53+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/admin/public/static/img//logYZM.png
-[ info ] localhost/mall/admin/public/index/login/admin/public/static/img//logYZM.png [运行时间：0.143411s][吞吐率：6.97req/s] [内存消耗：1,363.37kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'admin',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/mall/admin/public/index/login/log',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'accept' => 'image/webp,image/*,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-  'public' => 'static',
-  'img' => 'logYZM.png',
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:34:53+08:00 ] ::1 ::1 GET /mall/admin/public/index/login/log
-[ info ] localhost/mall/admin/public/index/login/log [运行时间：0.087327s][吞吐率：11.45req/s] [内存消耗：1,387.21kb] [文件加载：46]
-[ info ] [ LANG ] F:\phpstudy\WWW\mall\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'login',
-    2 => 'log',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'cache-control' => 'max-age=0',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Login->log[ F:\phpstudy\WWW\mall\admin\application\index\controller\Login.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\mall\admin\public/../application/index\view\login\log.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:36:07+08:00 ] ::1 ::1 GET /admin/public/
-[ info ] localhost/admin/public/ [运行时间：0.455669s][吞吐率：2.19req/s] [内存消耗：1,494.98kb] [文件加载：48]
-[ info ] [ LANG ] F:\phpstudy\WWW\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => '',
-    1 => NULL,
-    2 => NULL,
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/admin/',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\admin\application\index\controller\Index.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\admin\public/../application/index\view\index\index.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T09:36:07+08:00 ] ::1 ::1 GET /admin/public/index/index/main.html
-[ info ] localhost/admin/public/index/index/main.html [运行时间：0.277589s][吞吐率：3.60req/s] [内存消耗：1,449.21kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'index',
-    2 => 'main',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/admin/public/',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\admin\application\index\controller\Index.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\admin\public/../application/index\view\index\main.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T10:05:01+08:00 ] ::1 ::1 GET /sugoo/admin/public/
-[ info ] localhost/sugoo/admin/public/ [运行时间：0.228364s][吞吐率：4.38req/s] [内存消耗：1,499.02kb] [文件加载：48]
-[ info ] [ LANG ] F:\phpstudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => '',
-    1 => NULL,
-    2 => NULL,
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'referer' => 'http://localhost/sugoo/admin/',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
-  'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'connection' => 'close',
-  'host' => 'localhost',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\sugoo\admin\application\index\controller\Index.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2018-01-02T10:05:02+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/index/main.html
-[ info ] localhost/sugoo/admin/public/index/index/main.html [运行时间：0.271270s][吞吐率：3.69req/s] [内存消耗：1,453.20kb] [文件加载：47]
-[ info ] [ LANG ] F:\phpstudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'index',
-    2 => 'main',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'cookie' => 'pgv_pvi=1496720384',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
   'referer' => 'http://localhost/sugoo/admin/public/',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
   'upgrade-insecure-requests' => '1',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
   'connection' => 'close',
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\index\controller\Index->main[ F:\phpstudy\WWW\sugoo\admin\application\index\controller\Index.php ]
-[ info ] [ VIEW ] F:\phpstudy\WWW\sugoo\admin\public/../application/index\view\index\main.html [ array (
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:46:56+08:00 ] ::1 ::1 GET /sugoo/admin/public/static/main.html
+[ info ] localhost/sugoo/admin/public/static/main.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,144.49kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'main',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:46:58+08:00 ] ::1 ::1 GET /sugoo/admin/public/static/main.html
+[ info ] localhost/sugoo/admin/public/static/main.html [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,144.49kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'main',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:49:21+08:00 ] ::1 ::1 GET /sugoo/admin/public/
+[ info ] localhost/sugoo/admin/public/ [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：1,386.31kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:49:21+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/index/main.html
+[ info ] localhost/sugoo/admin/public/index/index/main.html [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,341.37kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:49:58+08:00 ] ::1 ::1 GET /sugoo/admin/public/
+[ info ] localhost/sugoo/admin/public/ [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,386.24kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:49:58+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/index/main.html
+[ info ] localhost/sugoo/admin/public/index/index/main.html [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：1,341.37kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:00+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/user/user
+[ info ] localhost/sugoo/admin/public/index/user/user [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,507.82kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->user[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:02+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/brand/index
+[ info ] localhost/sugoo/admin/public/index/brand/index [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,509.51kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Brand->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\brand\brand.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:03+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/category/index
+[ info ] localhost/sugoo/admin/public/index/category/index [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,509.66kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Category->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\category\category.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:04+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/brand/index
+[ info ] localhost/sugoo/admin/public/index/brand/index [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,390.13kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Brand->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\brand\brand.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:05+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/category/index
+[ info ] localhost/sugoo/admin/public/index/category/index [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,390.23kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Category->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\category\category.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:05+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/brand/index
+[ info ] localhost/sugoo/admin/public/index/brand/index [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：1,390.13kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Brand->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\brand\brand.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:07+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/vip/index
+[ info ] localhost/sugoo/admin/public/index/vip/index [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,510.90kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'vip',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Vip->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Vip.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\vip\vip.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:08+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/cupon/index
+[ info ] localhost/sugoo/admin/public/index/cupon/index [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,458.98kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cupon->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Cupon.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\cupon\cupon.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:09+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/talk/index
+[ info ] localhost/sugoo/admin/public/index/talk/index [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：1,456.70kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'talk',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Talk->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Talk.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\talk\talk.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:10+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/trading/index
+[ info ] localhost/sugoo/admin/public/index/trading/index [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,510.22kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'trading',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Trading->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Trading.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\trading\trading.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:12+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/money/index
+[ info ] localhost/sugoo/admin/public/index/money/index [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,458.98kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'money',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Money->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Money.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\money\money.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:13+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/system/index
+[ info ] localhost/sugoo/admin/public/index/system/index [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,458.83kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\System->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\System.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\system\changepwd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:16+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/system/index
+[ info ] localhost/sugoo/admin/public/index/system/index [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,340.84kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\System->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\System.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\system\changepwd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:17+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/system/index
+[ info ] localhost/sugoo/admin/public/index/system/index [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,340.84kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\System->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\System.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\system\changepwd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-02T10:50:19+08:00 ] ::1 ::1 GET /sugoo/admin/public/index/system/index
+[ info ] localhost/sugoo/admin/public/index/system/index [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,340.84kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'm=34e2:; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1510193696,1510311269; pgv_pvi=9544730624; UM_distinctid=160a57c2a1558b-0688fbbe31c75d-61131b7e-100200-160a57c2a165d2; Hm_lvt_c202865d524849216eea846069349eb9=1514604868,1514805681; CNZZDATA30037065=cnzz_eid%3D1167986484-1514601096-http%253A%252F%252Flocalhost%252F%26ntime%3D1514801455',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/sugoo/admin/public/static/inc/left.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\System->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\System.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\system\changepwd.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File

@@ -74,3 +74,7 @@ Route::get('/car','CarController@index');
 Route::get('/car_two','CarController@car2');
 //结算页面
 Route::get('/car_three','CarController@car3');
+
+// 红包
+Route::any('/cupon','userCupon@give');
+Route::any('/cu_get','userCupon@getinfo');

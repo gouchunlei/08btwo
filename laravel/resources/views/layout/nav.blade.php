@@ -77,7 +77,7 @@
         </span>
         <!--End 所在收货地区 End-->
         <span class="fr">
-        	<span class="fl">你好，请<a href="login">登录</a>&nbsp; <a href="regis" style="color:#ff4e00;">免费注册</a>&nbsp;|&nbsp;<a href="user">个人中心</a>&nbsp;|&nbsp;<a href="order">我的订单</a>&nbsp;|</span>
+        	<span class="fl">你好，<?php if(session('username')){ echo session('username');}else{ echo "请<a href='login'>登录</a>";}?>&nbsp; <a href="regis" style="color:#ff4e00;">免费注册</a>&nbsp;|&nbsp;<a href="user">个人中心</a>&nbsp;|&nbsp;<a href="order">我的订单</a>&nbsp;|</span>
         	<span class="ss">
             	<div class="ss_list">
                 	<a href="#">收藏夹</a>

@@ -20,11 +20,19 @@ Route::get('/index','IndexController@index');
 
 //登录
 Route::get('/login','LoginController@index');
+Route::any('/loginDo','LoginController@loginDo');
+
 //注册
 Route::get('/regis','LoginController@regis');
+Route::any('/flash','LoginController@flash');
+Route::any('/addUser','LoginController@addUser');
+Route::any('/qqLogin','LoginController@qqLogin');
+
 
 //个人中心主页
 Route::get('/user','UserController@index');
+
+//安全设置
 
 /*订单中心*/
 
@@ -48,6 +56,27 @@ Route::get('/userlink','UserController@userlink');
 
 //账户安全
 Route::get('/safe','UserController@safe');
+//安全管理
+
+//修改手机号
+Route::any('/updatePhone','UserController@updatePhone');
+//修改邮箱
+Route::any('/updateEmail','UserController@updateEmail');
+//添加 修改 身份信息
+Route::any('/updateCard','UserController@updateCard');
+//修改密码
+Route::any('/updatePassword','UserController@updatePassword');
+//修改支付密码
+Route::any('/updatePay','UserController@updatePay');
+//添加支付密码
+Route::any('/addPay','UserController@addPay');
+
+//安全管理
+
+
+
+
+
 //我的红包
 Route::get('/packet','UserController@packet');
 //资金管理

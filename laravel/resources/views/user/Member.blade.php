@@ -8,16 +8,11 @@
                   <tr valign="top">
                     <td width="115"><img src="images/user.jpg" width="90" height="90" /></td>
                     <td>
-                    	<div class="m_user">TRACY</div>
+                    	<div class="m_user">{{$user['username']}}</div>
                         <p>
                             等级：注册用户 <br />
-                            <font color="#ff4e00">您还差 270 积分达到 分红100</font><br />
-                            上一次登录时间: 2015-09-28 18:19:47<br />
-                            您还没有通过邮件认证 <a href="#" style="color:#ff4e00;">点此发送认证邮件</a>
+                            上一次登录时间: {{$user['login_time']}}<br />
                         </p>
-                        <div class="m_notice">
-                        	用户中心公告！
-                        </div>
                     </td>
                   </tr>
                 </table>	
@@ -31,7 +26,7 @@
                 <td width="33%">返还积分：<span>99R</span></td>
               </tr>
               <tr>
-                <td>账户余额：<span>￥200元</span></td></td>
+                <td>账户余额：<span>￥{{$user['u_money']}}元</span></td></td>
                 <td>红包个数：<span style="color:#555555;">3个</span></td></td>
                 <td>红包价值：<span>￥50元</span></td></td>
               </tr>
@@ -46,32 +41,29 @@
             <table border="0" class="acc_tab" style="width:870px;" cellspacing="0" cellpadding="0">
               <tr>
                 <td class="td_l">用户ID： </td>
-                <td>12345678</td>
+                <td>{{$user['u_id']}}</td>
               </tr>
               <tr>
                 <td class="td_l b_none">身份证号：</td>
-                <td>522124***********8</td>
+                <td>{{$user['id_card']}}</td>
               </tr>
               <tr>
                 <td class="td_l b_none">电  话：</td>
-                <td>186****1234</td>
+                <td>{{$user['phone']}}</td>
               </tr>
               <tr>
                 <td class="td_l">邮   箱： </td>
-                <td>*******789@qq.com</td>
+                <td>{{$user['email']}}</td>
               </tr>
               <tr>
                 <td class="td_l b_none">注册时间：</td>
-                <td>2015/10/10</td>
+                <td><?php  echo substr($user['regis_time'],0,10);?></td>
               </tr>
               <tr>
                 <td class="td_l">完成订单：</td>
                 <td>0</td>
               </tr>
               <tr>
-                <td class="td_l b_none">邀请人：</td>
-                <td>邀请人</td>
-              </tr>
               <tr>
                 <td class="td_l">登录次数：</td>
                 <td>3</td>

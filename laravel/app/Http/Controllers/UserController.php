@@ -2,14 +2,28 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Requests;
+use Request,Redirect,Session;
+use Illuminate\Support\Facades\Cookie;
+use \App\Users;
+
 
 class UserController extends Controller
 {
 	//个人中心
     public function index()
     {
-    	return view('user/Member');
+        if(!empty(session('uid')))
+        {
+            $Users = new Users;
+            $userinfo = $Users->getUserMsg();
+            $user =json_decode($userinfo,true);
+    	   return view('user/Member')->with('user',$user);
+        }
+        else
+        {
+            return Redirect::to('login');
+        }
     }
     //我的订单
     public function order()
@@ -24,19 +38,22 @@ class UserController extends Controller
     //用户信息
     public function userinfo()
     {
-    	return view('user/Member_User');
+        $Users = new Users;
+        $userinfo = $Users->getUserMsg();
+        $user =json_decode($userinfo,true);
+    	return view('user/Member_User')->with('user',$user);
     }
     //我的收藏
     public function usercollect()
     {
     	return view('user/Member_Collect');
     }
-    //用户信息
+    //我的留言
     public function usermsg()
     {
         return view('user/Member_Msg');
     }
-    //我的收藏
+    //我的邀请链接
     public function userlink()
     {
         return view('user/Member_Links');
@@ -44,11 +61,74 @@ class UserController extends Controller
      //账户安全
     public function safe()
     {
-        return view('user/Member_Safe');
+            $Users = new Users;
+            $userinfo = $Users->getUserInfo();
+            return view('user/Member_Safe')->with([
+                    'phone'=>$userinfo->phone,
+                    'email'=>$userinfo->email,
+                    'id_card'=>$userinfo->id_card,
+                    'pay_pwd'=>$userinfo->pay_pwd,
+            ]);
     }
+
+
+    //修改手机号
+    public function updatePhone()
+    {
+        $data=Request::all();
+        $Users = new Users;
+        return json_encode($Users->upPhone($data));
+    }
+
+    //修改邮箱
+    public function updateEmail(){
+         $email=Request::get('email');
+         $Users = new Users;
+         return json_encode($Users->upEmail($email));
+    }
+
+    //修改或添加身份信息
+    public function updateCard(){
+         $data=Request::all();
+         $Users = new Users;
+         return json_encode($Users->upCard($data));
+    }
+
+    //修改或添加身份信息
+    public function updatePassword(){
+         $data=Request::all();
+         $Users = new Users;
+         return json_encode($Users->upPassword($data));
+         // return json_encode($data['onePassword']);
+    }
+
+    //修改支付密码
+    public function updatePay(){
+        $data=Request::all();
+        $Users = new Users;
+        return json_encode($Users->upPay($data));
+    }
+
+    //添加支付密码
+    public function addPay(){
+        $pay_pwd=Request::get('addPay1');
+        $Users = new Users;
+        return json_encode($Users->addPayPwd($pay_pwd));
+    }
+
+
+    //账户安全
+
+
+
+
+
+
+
     //我的红包
     public function packet()
     {
+        $data=$this->hongbao();
         return view('user/Member_Packet');
     }
     //资金管理
@@ -61,11 +141,8 @@ class UserController extends Controller
     {
         return view('user/Member_Money_Charge');
     }
-    //提现申请
-     Public function cash()
-    {
-        return view('user/Member_Cash');
-    }
+    
+    //支付信息
     Public function pay()
     {
         return view('user/Member_Money_Pay');

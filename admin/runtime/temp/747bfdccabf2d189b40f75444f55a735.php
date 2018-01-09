@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:87:"F:\phpstudy\WWW\sugooUp\admin\public/../application/index\view\marketing\marketing.html";i:1514941717;}*/ ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -34,9 +35,9 @@
 <!-- dcHead 结束 --> <div id="dcLeft"><div id="menu">
  
  <ul>
-  <li><a href="{:url('index/marketing/index')}"><i class="productCat"></i><em>活动审核</em></a></li>
-  <li><a href="{:url('index/cupon/index')}"><i class="productCat"></i><em>红包管理</em></a></li>
-  <li><a href="{:url('index/marketing/index')}"><i class="productCat"></i><em>秒杀活动</em></a></li>
+  <li><a href="<?php echo url('index/marketing/index'); ?>"><i class="productCat"></i><em>活动审核</em></a></li>
+  <li><a href="<?php echo url('index/cupon/index'); ?>"><i class="productCat"></i><em>红包管理</em></a></li>
+  <li><a href="<?php echo url('index/marketing/index'); ?>"><i class="productCat"></i><em>秒杀活动</em></a></li>
  </ul>
  
   
@@ -44,7 +45,7 @@
  <div id="dcMain">
    <!-- 当前位置 -->
 <div id="urHere">DouPHP 管理中心<b>></b><strong>营销管理</strong> </div>   <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
-        <h3><a href="{:url('index/marketing/add')}" class="actionBtn add">添加活动</a>活动列表</h3>
+        <h3><a href="<?php echo url('index/marketing/add'); ?>" class="actionBtn add">添加活动</a>活动列表</h3>
     <div class="filter">
     <form action="product.php" method="post">
      <select name="cat_id">

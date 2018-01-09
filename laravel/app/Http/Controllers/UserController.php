@@ -7,7 +7,6 @@ use Request,Redirect,Session;
 use Illuminate\Support\Facades\Cookie;
 use \App\Users;
 
-
 class UserController extends Controller
 {
 	//个人中心
@@ -15,10 +14,8 @@ class UserController extends Controller
     {
         if(!empty(session('uid')))
         {
-            $Users = new Users;
-            $userinfo = $Users->getUserMsg();
-            $user =json_decode($userinfo,true);
-    	   return view('user/Member')->with('user',$user);
+            $user=$this->userMsgInfo();
+    	    return view('user/Member')->with('user',$user);
         }
         else
         {
@@ -38,11 +35,19 @@ class UserController extends Controller
     //用户信息
     public function userinfo()
     {
-        $Users = new Users;
-        $userinfo = $Users->getUserMsg();
-        $user =json_decode($userinfo,true);
+        $user=$this->userMsgInfo();
     	return view('user/Member_User')->with('user',$user);
     }
+
+    //获取所有用户相关信息
+    public function userMsgInfo(){
+        $Users = new Users;
+        $userinfo = $Users->getUserMsg(); 
+        return json_decode($userinfo,true);
+    }
+
+
+
     //我的收藏
     public function usercollect()
     {
@@ -128,7 +133,7 @@ class UserController extends Controller
     //我的红包
     public function packet()
     {
-        $data=$this->hongbao();
+        // $data=$this->hongbao();
         return view('user/Member_Packet');
     }
     //资金管理
@@ -147,4 +152,5 @@ class UserController extends Controller
     {
         return view('user/Member_Money_Pay');
     }
+
 }

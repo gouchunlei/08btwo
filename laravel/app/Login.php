@@ -105,5 +105,55 @@ class Login extends Model
 		return $a;
     }
 
-}
 
+    //查看openid是否存在
+    public function checkOpenid($openid){
+    	$res = DB::table('su_user')->where('u_openid',$openid)->first();
+    	if($res)
+    	{
+    		$back = ['error'=>200,'reason'=>"用户已注册",'result'=>$res];
+    	}
+    	else
+    	{
+    		$back = ['error'=>201,'reason'=>"填写详细数据"];
+    	}
+    	return json_encode($back);
+    }
+
+
+    //追加第三方登录信息
+    public function append($data)
+    {
+    	$user = DB::table('su_user')->where('username',$data['username'])->first();
+    	if($user)
+    	{
+    		$info=['error'=>'301','reason'=>"用户名已存在！"];
+    	}
+    	else
+    	{
+    		$openid = session('openid');
+    		$addinfo=[
+    			'username'=>$data['username'],
+    			'password'=>$data['password'],
+    			'login_time'=>date("Y-m-d H:i:s"),
+    			'regis_time'=>date("Y-m-d H:i:s"),
+    			'u_openid'=>$openid,
+    		];
+    		$res = DB::table('su_user')->insertGetId($addinfo);
+    		if($res)
+    		{
+
+    			session(['uid'=>$res,'username'=>$data['username']]);
+    			$info=['error'=>'200','reason'=>"填写成功"];	
+    		}
+    		else
+    		{
+    			$info=['error'=>'303','reason'=>"入库失败"];
+    		}
+    	}
+
+    	return $info;
+    }
+
+
+}

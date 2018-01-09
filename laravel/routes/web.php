@@ -27,6 +27,9 @@ Route::get('/regis','LoginController@regis');
 Route::any('/flash','LoginController@flash');
 Route::any('/addUser','LoginController@addUser');
 Route::any('/qqLogin','LoginController@qqLogin');
+Route::any('/getCode','LoginController@getCode');
+Route::any('/appendInfo','LoginController@appendInfo');
+Route::any('/appendUser','LoginController@appendUser');
 
 
 //个人中心主页

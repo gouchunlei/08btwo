@@ -18,12 +18,13 @@ class Users extends Model
     }
 
 
-    //获取用户详细信息
+   //获取用户详细信息
    public function getUserMsg(){
       $uid = session('uid');
       $user = DB::table('su_user')->where('u_id',$uid)->first();
       return json_encode($user);
    }
+
 
     //修改手机号
    public function upPhone($data)
